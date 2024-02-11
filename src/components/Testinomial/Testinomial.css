@@ -1,0 +1,74 @@
+.testinomial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  align-self: stretch;
+  background: #2545b8;
+  max-height: 400px;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.testinomial-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testinomial-wrapper img {
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+
+.testinomial-text-wrapper {
+  position: relative;
+}
+
+.testinomial-text-wrapper b,
+p,
+quote {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* text-align: left; */
+}
+
+.testinomial-text-wrapper p {
+  font-weight: 500;
+}
+
+.testinomial-wrapper quote {
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+.testinomial-wrapper q::after {
+  content: none;
+}
+.testinomial-wrapper q::before {
+  content: none;
+}
+
+.testinomial-wrapper .quote-mark {
+  margin-top: -40px;
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  .testinomial-container {
+    max-height: 100%;
+  }
+  .testinomial-wrapper {
+    flex-direction: column;
+    margin: 10px;
+  }
+  .testinomial-wrapper quote {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,68 @@
+.gray {
+  --badge-color: color: #1F2937;
+  --badge-bg-color: #F3F4F6;;
+}
+
+.red {
+  --badge-color: #991b1b;
+  --badge-bg-color: #fee2e2;
+}
+
+.yellow {
+  --badge-color: #991b1b;
+  --badge-bg-color: #92400E;
+}
+
+.green {
+  --badge-color: #065F46;
+  --badge-bg-color:  #D1FAE5;
+}
+
+.blue {
+  --badge-color: #1E40AF;
+  --badge-bg-color: #DBEAFE;
+}
+
+.indigo {
+  --badge-color: #3730A3;
+  --badge-bg-color: #E0E7F;
+}
+
+.purple {
+  --badge-color: #5B21B6;
+  --badge-bg-color: #EDE9FE;
+}
+.pink {
+  --badge-color: #9D174D;
+  --badge-bg-color: #FCE7F3;
+}
+
+.badge {
+  display: flex;
+  padding: 5px 12px;
+  justify-content: center;
+  align-items: center;
+}
+.badge span {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+}
+
+.badge--square {
+  border-radius: 4px;
+}
+
+.badge--pill {
+  border-radius: 12px;
+}
+
+.badge--square,
+.badge--pill {
+  background: var(--badge-bg-color);
+  color: var(--badge-color);
+}
+

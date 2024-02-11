@@ -1,0 +1,50 @@
+.success {
+  --bg-color: #ecfdf5;
+  --text-color: #047857;
+  --label-color: #065f46;
+}
+
+.warning {
+  --bg-color: #fffbeb;
+  --text-color: #b45309;
+  --label-color: #92400e;
+}
+
+.error {
+  --bg-color: #fef2f2;
+  --text-color: #b45309;
+  --label-color: #92400e;
+}
+
+.neutral {
+  --bg-color: #eff6ff;
+  --text-color: #1c51b9;
+  --label-color: #1e40af;
+}
+
+.banner-container {
+  display: flex;
+  width: 896px;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 12px;
+  background: var(--bg-color);
+}
+
+.banner-wrapper .label {
+  color: var(--label-color);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.banner-wrapper .text {
+  color: var(--text-color);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
