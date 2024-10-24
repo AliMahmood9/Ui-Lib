@@ -1,0 +1,42 @@
+$ storybook build -- --test --output-dir=C:\Users\TK-LPT~1\AppData\Local\Temp\chromatic--16620-oH7m681eypy0
+@storybook/cli v7.6.6
+
+info => Cleaning outputDir: \storybook-static
+info => Loading presets
+info => Building manager..
+info => Manager built (279 ms)
+info => Building preview..
+info => Copying static files: C:\Ui-Lib\node_modules\@storybook\manager\static at C:\Ui-Lib\storybook-static\sb-common-assets
+info Using SWC compiler
+info Addon-docs: using MDX2
+info => Loading Webpack configuration from `node_modules\react-scripts`
+info => Removing existing JavaScript and TypeScript rules.
+info => Modifying Create React App rules.
+info => Using default Webpack5 setup
+info => Copying static files: C:\Ui-Lib\public at C:\Ui-Lib\storybook-static\
+WARN [eslint] 
+WARN src\components\Badge\Badge.jsx
+WARN   Line 7:9:  'classNames' is assigned a value but never used  no-unused-vars
+WARN 
+WARN src\components\Testinomial\Testinomial.jsx
+WARN   Line 17:9:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop  jsx-a11y/img-redundant-alt
+WARN 
+WARN 
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   7a58d2cb9a6358f85e9b.png (456 KiB)
+WARN   a2bfdb20c853d025fec1.png (311 KiB)
+WARN   426.a3fe4383.iframe.bundle.js (581 KiB)
+WARN   719.5d93fcfe.iframe.bundle.js (714 KiB)
+WARN   764.d58586a6.iframe.bundle.js (819 KiB)
+WARN   5.585f05c7.iframe.bundle.js (812 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (837 KiB)
+WARN       runtime~main.d9ed4a9c.iframe.bundle.js
+WARN       764.d58586a6.iframe.bundle.js
+WARN       main.d64b6ba4.iframe.bundle.js
+WARN 
+info => Preview built (11 s)
+info => Output directory: C:\Ui-Lib\storybook-static

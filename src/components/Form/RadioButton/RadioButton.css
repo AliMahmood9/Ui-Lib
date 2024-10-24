@@ -1,0 +1,25 @@
+.form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.form-radio {
+  margin-right: 0.5rem;
+}
+
+.form-label {
+  font-size: 1rem;
+  color: #333;
+  display: block;
+}
+
+.form-error {
+  color: red;
+  font-size: 0.875rem;
+  display: block;
+}
+
+.has-error .form-radio {
+  border-color: red;
+}

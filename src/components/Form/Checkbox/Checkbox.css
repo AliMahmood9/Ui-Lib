@@ -1,0 +1,29 @@
+.form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.form-checkbox {
+  margin-right: 0.5rem;
+}
+
+.form-label {
+  font-size: 1rem;
+  color: #333;
+}
+
+.form-error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+.has-error .form-label {
+  color: red;
+}
+
+.has-error .form-checkbox {
+  border-color: red;
+}

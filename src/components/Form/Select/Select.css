@@ -1,0 +1,43 @@
+.form-select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 14px;
+  background-color: white;
+  appearance: none; /* Removes default arrow for better styling */
+  -webkit-appearance: none; /* For Safari */
+  -moz-appearance: none; /* For Firefox */
+  background-image: url("data:image/svg+xml;base64,YOUR_ARROW_SVG"); /* Add your own SVG arrow */
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Position the arrow */
+}
+
+/* Focus state for select element */
+.form-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Disabled state for select */
+.form-select:disabled {
+  background-color: #f8f9fa;
+  border-color: #ced4da;
+  cursor: not-allowed;
+}
+
+/* Error state for select */
+.select-error {
+  border-color: red;
+}
+
+/* Error message styling */
+.form-error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+}
